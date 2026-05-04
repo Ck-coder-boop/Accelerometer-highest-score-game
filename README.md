@@ -18,6 +18,9 @@ This project implements a motion-controlled reaction game using an STM32 microco
 ## Files
 - main.c → main code
 - Screenshot 2026-05-04 221243.png → schematic image
+- 
+## Schematic Download
+[Download schematic](Schematicpdf.pdf)
 
 ## Notes
 Audio output was investigated using an I2S amplifier but was not included in the final implementation due to timing limitations.
