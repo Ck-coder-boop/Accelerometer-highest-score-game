@@ -5,7 +5,8 @@ This project implements an embedded motion-based reaction game using an STM32 mi
 
 ## Circuit Schematic
 
-![Circuit schematic](hardware/schematic.png)
+![Circuit schematic](<img width="1108" height="780" alt="image" src="https://github.com/user-attachments/assets/c48e9467-d2bd-4e4f-9341-bcf44b697e87" />
+)
 
 ## Hardware
 - STM32 Nucleo-L432KC
