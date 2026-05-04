@@ -1,12 +1,11 @@
 # Motion-Based Reaction Game (STM32)
 
 ## Overview
-This project implements an embedded motion-based reaction game using an STM32 microcontroller. The user must respond to directional prompts using tilt input from an accelerometer.
+This project implements a motion-controlled reaction game using an STM32 microcontroller.
 
 ## Circuit Schematic
 
-![Circuit schematic](<img width="1108" height="780" alt="image" src="https://github.com/user-attachments/assets/c48e9467-d2bd-4e4f-9341-bcf44b697e87" />
-)
+![Circuit schematic](hardware/Screenshot%202026-05-04%20221243.png)
 
 ## Hardware
 - STM32 Nucleo-L432KC
@@ -17,7 +16,8 @@ This project implements an embedded motion-based reaction game using an STM32 mi
 - MAX98357A I2S Audio Amplifier (experimental)
 
 ## Files
-- `src/` → main code
-- `hardware/` → schematic + images
+- src/ → main code
+- hardware/ → schematic + image
 
-[Download KiCad schematic](hardware/Game%20module%20sheet.kicad_sch)
+## Schematic File
+[Download schematic](hardware/Game%20module%20sheet.kicad_sch)
