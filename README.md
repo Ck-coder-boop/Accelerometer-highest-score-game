@@ -17,11 +17,7 @@ This project implements a motion-controlled reaction game using an STM32 microco
 
 ## Files
 - main.c → main code
-- Game module sheet.kicad_sch → KiCad schematic
 - Screenshot 2026-05-04 221243.png → schematic image
-
-## Schematic File
-[Download schematic](Game%20module%20sheet.kicad_sch)
 
 ## Notes
 Audio output was investigated using an I2S amplifier but was not included in the final implementation due to timing limitations.
