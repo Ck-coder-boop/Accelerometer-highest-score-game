@@ -5,7 +5,7 @@ This project implements a motion-controlled reaction game using an STM32 microco
 
 ## Circuit Schematic
 
-![Circuit schematic](hardware/Screenshot%202026-05-04%20221243.png)
+![Circuit schematic](Screenshot%202026-05-04%20221243.png)
 
 ## Hardware
 - STM32 Nucleo-L432KC
@@ -16,8 +16,12 @@ This project implements a motion-controlled reaction game using an STM32 microco
 - MAX98357A I2S Audio Amplifier (experimental)
 
 ## Files
-- src/ → main code
-- hardware/ → schematic + image
+- main.c → main code
+- Game module sheet.kicad_sch → KiCad schematic
+- Screenshot 2026-05-04 221243.png → schematic image
 
 ## Schematic File
-[Download schematic](hardware/Game%20module%20sheet.kicad_sch)
+[Download schematic](Game%20module%20sheet.kicad_sch)
+
+## Notes
+Audio output was investigated using an I2S amplifier but was not included in the final implementation due to timing limitations.
