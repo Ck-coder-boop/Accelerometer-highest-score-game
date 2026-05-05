@@ -1,0 +1,41 @@
+Week 1 – Setup and Planning
+Set up STM32 environment and got previous assignment code running again
+Initially wasn’t fully sure what direction to take with the project
+Decided on a motion-based reaction game using the accelerometer
+Didn’t get much actual implementation done this week
+
+This week was mainly planning and getting everything working again from the previous assignment.
+
+Week 2 – Basic Hardware + Early Issues
+Started wiring up components on the breadboard
+First attempt at display and button didn’t work properly
+Spent time checking wiring with multimeter and fixing connections
+Got button input working after fixing pull-up configuration
+Display eventually worked after rechecking SPI connections
+
+Progress was slower than expected due to wiring issues and getting used to the hardware again.
+
+Week 3 – Core Game Logic
+Got accelerometer readings working using I2C
+Initially values were unstable → adjusted scaling and thresholds
+First attempt at tilt detection was too sensitive
+Added thresholds to detect left/right/forward/back properly
+Implemented basic game loop
+Tried input without neutral filtering → caused repeated triggering
+Fixed this by adding a neutral zone before next input
+
+This week involved a lot of trial and error to get reliable motion detection.
+
+Week 4 – Features + Debugging
+Added scoring system and high score tracking
+Implemented timeout logic using millisecond timer
+Button debounce added after noticing multiple triggers
+RGB LED added for system state feedback
+Tried adding audio output:
+First tested speaker directly → no proper output
+Created sound array and attempted playback → very weak signal
+Added MAX98357A amplifier → only small click/buzz heard
+Concluded issue likely due to I2S timing not being accurate
+Left audio as experimental and focused on main functionality
+
+Final week focused on refining the system and solving integration issues. Audio was attempted but not fully successful.
