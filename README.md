@@ -15,6 +15,10 @@ This project implements a motion-controlled reaction game using an STM32 microco
 - TFT Display
 - MAX98357A I2S Audio Amplifier (experimental)
 
+## Project Report
+
+[Download Full Report (PDF)](Embedded%20Systems%20Project%202.pdf)
+
 ### Source Code
 - [main.c](main.c)
 - [display.c](display.c)
