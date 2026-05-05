@@ -34,7 +34,10 @@ This project implements a motion-controlled reaction game using an STM32 microco
 ## Files
 - main.c → main code
 - Screenshot 2026-05-04 221243.png → schematic image
-- 
+
+## Demonstration Video
+[Watch the project demonstration on YouTube](https://youtu.be/MFnngxhUEXM)
+
 ## Schematic Download
 [Download schematic](Schematicpdf.pdf)
 
